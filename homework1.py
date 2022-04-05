@@ -5,7 +5,7 @@
 # YOUR CANVAS NAME HERE
 # YOUR GITHUB USER NAME HERE
 
-# Due date: Sunday April 11th before midnight
+# Due date: Sunday April 10th before midnight
 # Write your answers in the space between the questions, and commit/push only this file to your repo.
 # Note that there can be a difference between giving a "minimally" right answer, and a really good
 # answer, so it can pay to put thought into your work.
@@ -20,7 +20,8 @@
 # Question 2: A palindrome is a word or phrase that is the same both forwards and backwards. Write
 # code that takes a variable of any string, then tests to see whether it qualifies as a palindrome.
 # Make sure it counts the word "radar" and the phrase "A man, a plan, a canal, Panama!", while
-# rejecting the word "Apple" and the phrase "This isn't a palindrome". Print the results.
+# rejecting the word "Apple" and the phrase "This isn't a palindrome". Print the results of these
+# four tests.
 
 
 # Question 3: The code below pauses to wait for user input, before assigning the user input to the
