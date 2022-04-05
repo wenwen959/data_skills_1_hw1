@@ -2,8 +2,8 @@
 # Spring 2021
 # Homework 1
 
-# YOUR CANVAS NAME HERE
-# YOUR GITHUB USER NAME HERE
+# Jessie Zou
+# wenwen959
 
 # Due date: Sunday April 10th before midnight
 # Write your answers in the space between the questions, and commit/push only this file to your repo.
