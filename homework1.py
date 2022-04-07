@@ -15,7 +15,11 @@
 # Question 1: Using a for loop, write code that takes in any list of objects, then prints out:
 # "The value at position __ is __" for every element in the loop, where the first blank is the
 # index location and the second blank the object at that index location.
-
+SnackBox=['Coke','Chips','Chocolate Bar','Gummies']
+n=0
+for snacks in SnackBox:
+    print('The value at position' ,n,'is',snacks)
+    n=n+1
 
 # Question 2: A palindrome is a word or phrase that is the same both forwards and backwards. Write
 # code that takes a variable of any string, then tests to see whether it qualifies as a palindrome.
