@@ -56,15 +56,19 @@ while choice not in available_vegetables:
 # list that contains each string in all lower-case letters, but only if the string begins with the
 # letter "a" or "b".
 family = ['Wenwen','Xixi','Baobao','Nini']
-new_list = [ppl.lower() for ppl in family if ppl[0]=='A' or ppl[0]=='B' ]
+new_list = [ppl.lower() for ppl in family if ppl[0]=='A' or ppl[0]=='B' ] #Representing initial letter
+#code string[0] is refered to Grepper website
 print(new_list)
 
 # Question 5: Beginning with the list below, write a single list comprehension that turns it into
 # the following list: [26, 22, 18, 14, 10, 6]
 start_list = [3, 5, 7, 9, 11, 13]
-
+final_list = list(reversed([num*2 for num in start_list])) #Reverse list code reversed() is refered
+#to realpython.com website
+print(final_list)
 
 # Question 6: Beginning with the two lists below, write a single dictionary comprehension that
 # turns them into the following dictionary: {'IL':'Illinois', 'IN':'Indiana', 'MI':'Michigan', 'OH':'Ohio'}
 short_names = ['IL', 'IN', 'MI', 'OH']
 long_names  = ['Illinois', 'Indiana', 'Michigan', 'Ohio']
+
