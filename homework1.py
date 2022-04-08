@@ -74,3 +74,9 @@ long_names  = ['Illinois', 'Indiana', 'Michigan', 'Ohio']
 new_dict = {short_names[i]:long_names[i] for i in range(len(short_names))} #Convert list to dictionary code
 #list[i]:list[i] is refered to PythonGuide website
 print(new_dict)
+
+#Reference used:
+#https://stackoverflow.com/questions/931092/reverse-a-string-in-python
+#https://www.codegrepper.com/code-examples/python/how+to+get+the+first+letter+of+a+string+in+python
+#https://realpython.com/python-reverse-list/
+#https://pythonguides.com/python-creates-a-dictionary-from-two-lists/
