@@ -71,4 +71,6 @@ print(final_list)
 # turns them into the following dictionary: {'IL':'Illinois', 'IN':'Indiana', 'MI':'Michigan', 'OH':'Ohio'}
 short_names = ['IL', 'IN', 'MI', 'OH']
 long_names  = ['Illinois', 'Indiana', 'Michigan', 'Ohio']
-
+new_dict = {short_names[i]:long_names[i] for i in range(len(short_names))} #Convert list to dictionary code
+#list[i]:list[i] is refered to PythonGuide website
+print(new_dict)
