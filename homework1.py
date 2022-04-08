@@ -55,7 +55,9 @@ while choice not in available_vegetables:
 # Question 4: Write a list comprehension that starts with any list of strings, and returns a new
 # list that contains each string in all lower-case letters, but only if the string begins with the
 # letter "a" or "b".
-
+family = ['Wenwen','Xixi','Baobao','Nini']
+new_list = [ppl.lower() for ppl in family if ppl[0]=='A' or ppl[0]=='B' ]
+print(new_list)
 
 # Question 5: Beginning with the list below, write a single list comprehension that turns it into
 # the following list: [26, 22, 18, 14, 10, 6]
