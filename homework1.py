@@ -26,7 +26,17 @@ for snacks in SnackBox:
 # Make sure it counts the word "radar" and the phrase "A man, a plan, a canal, Panama!", while
 # rejecting the word "Apple" and the phrase "This isn't a palindrome". Print the results of these
 # four tests.
+test_one='radar'
+test_two='A man, a plan, a canal, Panama!'
+test_three='Apple'
+test_four="This isn't a palindrome"
 
+test=[test_one,test_two,test_three,test_four]
+for item in test:
+    if item == item[::-1]:
+        print(item, 'is a palindrome')
+    else:
+        print(item, 'is not a palindrome')
 
 # Question 3: The code below pauses to wait for user input, before assigning the user input to the
 # variable.  Beginning with the given code, check to see if the answer given is an available
