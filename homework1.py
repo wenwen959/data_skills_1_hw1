@@ -33,7 +33,7 @@ test_four="This isn't a palindrome"
 
 test=[test_one,test_two,test_three,test_four]
 for item in test:
-    if item == item[::-1]:
+    if item == item[::-1]: #Reverse code [::-1] is copied from StackOverflow 
         print(item, 'is a palindrome')
     else:
         print(item, 'is not a palindrome')
@@ -45,6 +45,11 @@ for item in test:
 # them pick again.  Repeat until they pick a valid vegetable.
 available_vegetables = ['carrot', 'kale', 'radish', 'pepper']
 choice = input('Please pick a vegetable I have available: ')
+while choice not in available_vegetables:
+    choice = input('Please pick a vegetable I have available: ')
+    
+    if choice in available_vegetables:
+        print('You can have', choice)
 
 
 # Question 4: Write a list comprehension that starts with any list of strings, and returns a new
