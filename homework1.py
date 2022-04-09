@@ -46,6 +46,7 @@ for item in test:
 available_vegetables = ['carrot', 'kale', 'radish', 'pepper']
 choice = input('Please pick a vegetable I have available: ')
 while choice not in available_vegetables:
+    print('You made an invalid choice')
     choice = input('Please pick a vegetable I have available: ')
     
     if choice in available_vegetables:
